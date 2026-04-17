@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webora – Digital Agency</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+
+  <!-- JS -->
+  <script src="js/data.js" defer></script>
+  <script src="js/three-bg.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<nav class="nav">
+  <div class="logo">WEB<span>ORA</span></div>
+</nav>
+
+<section class="hero">
+  <h1>We Build <span>The Web</span></h1>
+  <p>Modern websites that convert visitors into clients.</p>
+  <a href="#contact" class="btn">Start Project</a>
+</section>
+
+<section class="section">
+  <h2>Services</h2>
+  <div class="grid" id="servicesGrid"></div>
+</section>
+
+<section class="section">
+  <h2>Our Work</h2>
+  <div class="grid" id="workGrid"></div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Your project details"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 Webora Studio
+</footer>
+
+</body>
+</html>
